@@ -7,10 +7,12 @@ import { LinearGradient } from 'expo-linear-gradient';
 export default function App() {
   ScreenOrientation.lockAsync(ScreenOrientation.OrientationLock.LANDSCAPE_LEFT);
 
+
   return (
     <SafeAreaView style={styles.safeContainer}>
+      <StatusBar hidden />
       <LinearGradient
-        colors={['#E6E6FA', '#FF1493']}
+        colors={['#E6E6FA', '#6305fc']}
         start={{ x: 0, y: 0 }}
         end={{ x: 1, y: 1 }}
         style={styles.container}>
@@ -60,14 +62,14 @@ const styles = StyleSheet.create({
   },
   boxContainer: {
     width: '100%',
-    height: 180,
+    height: '20%',
     backgroundColor: '#fff',
     borderRadius: 15,
     justifyContent: 'center',
-    shadowColor: '#000',
+    shadowColor: '#6305fc',
     shadowOffset: {
-      width: 0,
-      height: 2,
+      width: 0.5,
+      height: 3,
     },
     shadowOpacity: 0.25,
     shadowRadius: 3,
@@ -79,7 +81,7 @@ const styles = StyleSheet.create({
     fontFamily: 'Arial',
     textAlign: 'center',
     fontWeight: 'bold',
-    color: '#ff1c8d',
+    color: '#6305fc',
     textShadowColor: 'rgba(0, 0, 0, 0.5)',
     textShadowRadius: 1,
   },

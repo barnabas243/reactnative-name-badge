@@ -1,0 +1,3 @@
+Link to the Expo snack dev:
+
+https://snack.expo.dev/@barnabas243/reactnative-name-badge
