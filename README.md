@@ -3,11 +3,21 @@ Submission for CM3050 Graded Assignment **1.701 Name badge**.
 This project demonstrates a simple React Native application that displays a badge with a gradient background and shadow effects.
 
 ## Table of Contents
+- [Preview](#preview)
+- [Prerequisites](#prerequisites)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Dependencies](#dependencies)
+- [Running the App](#running-the-app)
 - [License](#license)
-- [Screenshot](#screenshot)
+
+## Preview:
+![Badge preview](screenshot.jpg)
+
+## Prerequisites
+
+Before running the app, make sure you have Node.js and Expo CLI installed on your machine.
+
+- [Node.js](https://nodejs.org/)
+- [Expo CLI](https://docs.expo.dev/get-started/installation/)
 
 ## Installation
 1. **Clone the repository:**
@@ -21,7 +31,10 @@ This project demonstrates a simple React Native application that displays a badg
    npm install
    ```
 
-3. **Start the development server:**
+## Running the App
+
+To start the app locally, use the following command:
+
    ```bash
    npm start
    ```
@@ -30,28 +43,7 @@ This project demonstrates a simple React Native application that displays a badg
    npx expo start
    ```
 
-4. **Run on Android/iOS device or simulator:**
-   - Follow the Expo CLI instructions in your terminal after starting the server.
-
-## Usage
-Once the app is running on your device or simulator:
-- The app will display a landscape-oriented badge with a gradient background.
-- The badge text shows "Welcome" and "My name is" with the name "Barnabas Tan" in the center.
-
-## Dependencies
-- **expo-status-bar**: Provides a cross-platform StatusBar component.
-- **expo-screen-orientation**: Handles screen orientation locking in Expo projects.
-- **expo-linear-gradient**: Allows creation of linear gradients in React Native applications.
+This will open the Expo development server and provide you with options to run the app on an Android/iOS simulator or scan the QR code with the Expo Go app on your device.
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
-
----
-
-### Notes:
-- Ensure you have [Node.js](https://nodejs.org/) installed.
-- This project uses Expo for development and deployment. Make sure to have the Expo CLI installed globally (`npm install -g expo-cli`).
-
-## Screenshot:
-![Screenshot](screenshot.jpg)
-
